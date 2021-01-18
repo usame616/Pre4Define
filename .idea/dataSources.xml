@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="db" uuid="7f84f4e8-75be-403a-84a2-4263b33f6f65">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Lenovo\Desktop\deneme\db.sqlite3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MyDatabase.db" uuid="eeaa18c4-9065-42c5-a3e0-027b0b0345a2">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>only two of them</remarks>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/Downloads/MyDatabase.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
