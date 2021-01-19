@@ -18,10 +18,12 @@ from django.urls import path, include
 from .views import homepage
 from define.views import define
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('contact.urls')),
     path('home/', homepage),
     path('define/', define),
+
 
 ]

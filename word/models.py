@@ -10,5 +10,5 @@ class WordsDefining(models.Model):
     ranking = models.CharField(max_length=4)
 
     def __str__(self):
-        return self.word
+        return self.word + "" + self.category
 
